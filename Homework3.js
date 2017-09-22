@@ -41,12 +41,3 @@ const theFirstTruethy= function(a,b,c) {
          return b;
       return c;
 };
-
-
-
-console.log(numOperations(1,2,3));
-console.log(myCity());
-console.log(fullName("asdw", "asdwwds"));
-console.log(thelongeststring("as", "sdas", "sdasa"));
-console.log(theBiggestNum(2,3));
-console.log(theFirstTruethy(0,"", 2));
