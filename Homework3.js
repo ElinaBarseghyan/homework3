@@ -30,8 +30,7 @@ const theBiggestNum= function(num1,num2) {
          return 0;
       if(num1>num2) 
          return 1;
-      
-         return -1;
+       return -1;
 };
 // A function that takes three inputs and returns the first truethy value.//
 const theFirstTruethy= function(a,b,c) {
@@ -39,5 +38,7 @@ const theFirstTruethy= function(a,b,c) {
          return a;
       if(!!b===true)
          return b;
-      return c;
+      if(!!c===true)
+         return c;
+      return "There are no truethy values";
 };
